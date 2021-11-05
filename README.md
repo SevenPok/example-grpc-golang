@@ -84,3 +84,4 @@ go mod tidy
 1. Importar paquetes a utilizar
 
 ![Paquetes worker](./images/dependencias_worker.png)
+
