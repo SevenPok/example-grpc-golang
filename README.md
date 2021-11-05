@@ -79,6 +79,23 @@ go mod tidy
 
 ![client main](./images/client-main.png)
 
+## Apache Kafka
+
+1. Creación de Cluster de Kafka
+   
+   Primero debemos entrar al http://localhost:9000 que es donde esta el servicio de kafka, y dar en Add Cluster.
+   ![crear cluster](./images/crear_cluster.png)
+   Luego, creaemos el cluster donde se conectara nuestra API producer y nuestro API worker.
+   ![crear cluster kafka](./images/crear_cluester_kafka.png)
+   Solo debemos poner un nombre al cluster el que quieran, poner el host del zookeeper y la version de kafka que queremos utilizar.
+
+2. Creación del Topic
+   Ya dentro de nuestro cluster de kafka, crearemos nuestro topic, simplemente debemos irnos a la pestaña topic y dar click en Create.
+   ![topic kafka](./images/topic_kafka.png)
+   Luego simplemente debemos darle un nombre a nuestro topic, poner cuantas particiones utilizara y tambien el factor de replica.
+   ![crear clutopicster](./images/crear_topic.png)
+   Nota: El factor de replica no puede ser mayor a la cantidad de brokers que se tienen en nuestro caso solo es un broker.
+
 ## Creacion de Worker o Consumer de Kafka
 
 1. Importar paquetes a utilizar
