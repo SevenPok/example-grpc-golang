@@ -88,3 +88,17 @@ go mod tidy
 2. Crear las contantes para el topic, y broker de kafka
 
 ![constantes worker](./images/constantes_worker.png)
+
+3. Crear la función consume que es el que consumira los mensajes enviados por el producer de kafka
+
+![Consume Worker](./images/consume_worker.png)
+
+## Modificar el server de grpc para que funcione tambien como producer de kafka
+
+1. Crear la función produce dentro del server.go
+   
+![Produce](./images/produce.png)
+
+2. En la función CreateUser enviar el user a la función produce
+
+![Enviar](./images/modificacion.png)
