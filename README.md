@@ -4,6 +4,7 @@
 
 1. Instalar el generador de archivos [proto](https://github.com/protocolbuffers/protobuf/releases).
 2. Instalar el lenguaje de [golang](https://golang.org/doc/install).
+3. Instalar de la pagina oficial [Kafka](https://kafka.apache.org) o con docker.
 
 ## Creacion de proyecto
 1. Crear una carpteta para el proyecto
