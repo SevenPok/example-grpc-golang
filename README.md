@@ -85,3 +85,6 @@ go mod tidy
 
 ![Paquetes worker](./images/dependencias_worker.png)
 
+2. Crear las contantes para el topic, y broker de kafka
+
+![constantes worker](./images/constantes_worker.png)
