@@ -78,3 +78,9 @@ go mod tidy
 2. Hacer la conexion del cliente al servidor:
 
 ![client main](./images/client-main.png)
+
+## Creacion de Worker o Consumer de Kafka
+
+1. Importar paquetes a utilizar
+
+![Paquetes worker](./images/dependencias_worker.png)
