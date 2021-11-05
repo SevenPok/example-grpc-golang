@@ -30,6 +30,11 @@ mkdir gen/proto
 ```
 mkdir proto
 ```
+7. Descargar dependencias para kafka en go:
+```
+go mod download github.com/segmentio/kafka-go
+go mod tidy && go mod vendor
+```
 ## Generar archivos golang con proto buffer
 
 1. Crear un archivo proto que contendra la estructura de los mensajes.
